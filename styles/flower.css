@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* banner section styles  */
+.header-container {
+  background: rgba(229, 84, 115, 0.1);
+  height: 1920px;
+  height: 850px;
+  margin-bottom: 178px;
+}
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 0px;
+  width: 634px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: white;
+  padding: 20px 43px;
+}
+.banner-flower img {
+  margin-top: 50px;
+}
