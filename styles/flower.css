@@ -32,11 +32,13 @@ body {
   width: 634px;
 }
 .btn-primary {
-  border-radius: 8px;
+  border-radius: 5px;
   background: #e55473;
   border: none;
   color: white;
-  padding: 20px 43px;
+  padding: 15px 38px;
+  font-size: 17px;
+  font-weight: 700;
 }
 .banner-flower img {
   margin-top: 50px;
@@ -152,7 +154,7 @@ body {
   margin-bottom: 128px;
 }
 .threads {
-  width: 50%;
+  width: 58%;
   height: auto;
   margin: 0 auto;
 }
@@ -172,21 +174,14 @@ body {
   margin-left: 15px;
   border-radius: 5px;
 }
-
-/* .deals-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-} */
-.deals-details {
+.deals-section {
   text-align: center;
   background-image: url("../Flower Asset/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
+  width: 1400px;
   height: 449px;
-  margin: 0 auto;
+  margin: 0px auto 128px auto;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -196,4 +191,58 @@ body {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
+}
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 48px;
+}
+.deals-inputBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-field {
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 700px;
+  height: auto;
+}
+.deals-btn {
+  margin-left: 10px;
+}
+/* footer container  */
+.footer-container {
+  background: #111010;
+  width: 1922px;
+  height: 449px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-flower-color {
+  color: #e55473;
+}
+.footer-description {
+  width: 55%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.footer-reserved {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
