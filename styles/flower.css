@@ -98,7 +98,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 128px 0px 228px;
+  margin: 128px 0px 128px;
   gap: 271px;
   background: rgba(39, 39, 39, 0.05);
   padding: 86px 0px;
@@ -115,4 +115,85 @@ body {
   color: rgba(39, 39, 39, 0.8);
   font-size: 18px;
   font-weight: 600;
+}
+
+/* instagram section  */
+.instagram-section {
+  margin-bottom: 128px;
+}
+.instagram {
+  text-align: center;
+}
+.instagram-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.instagram-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram-flower img {
+  /* box-shadow: 20px 10px 15px 5px; */
+  margin-left: 15px;
+  border-radius: 5px;
+}
+/* threads section  */
+.threads-section {
+  text-align: center;
+  margin-bottom: 128px;
+}
+.threads {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.threads-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.threads-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.threads-flower img {
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+/* .deals-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} */
+.deals-details {
+  text-align: center;
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deals-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
