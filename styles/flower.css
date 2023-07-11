@@ -149,6 +149,9 @@ body {
   margin-left: 15px;
   border-radius: 5px;
 }
+.instagram-flower:hover {
+  box-shadow: 1px 0px 150px 10px rgb(250, 132, 132);
+}
 /* threads section  */
 .threads-section {
   text-align: center;
@@ -174,6 +177,9 @@ body {
 .threads-flower img {
   margin-left: 15px;
   border-radius: 5px;
+}
+.threads-flower:hover {
+  box-shadow: 1px 0px 150px 10px rgb(250, 132, 132);
 }
 .deals-section {
   text-align: center;
