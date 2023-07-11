@@ -148,7 +148,7 @@ body {
 .instagram-flower img {
   margin-left: 15px;
   border-radius: 5px;
-  margin-bottom: -3px;
+  margin-bottom: -4px;
 }
 .instagram-flower:hover {
   box-shadow: 1px 0px 150px 10px rgb(248, 81, 81);
@@ -178,7 +178,7 @@ body {
 .threads-flower img {
   margin-left: 15px;
   border-radius: 5px;
-  margin-bottom: -3px;
+  margin-bottom: -4px;
 }
 .threads-flower:hover {
   box-shadow: 1px 0px 150px 10px rgb(235, 90, 90);
