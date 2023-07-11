@@ -3,6 +3,9 @@
   padding: 0;
 }
 /* banner section styles  */
+body {
+  font-family: "Lato", sans-serif;
+}
 .header-container {
   background: rgba(229, 84, 115, 0.1);
   height: 1920px;
@@ -13,6 +16,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0px 120px;
 }
 .banner-title {
   color: #272727;
@@ -36,4 +40,79 @@
 }
 .banner-flower img {
   margin-top: 50px;
+}
+
+/* flowers section styles  */
+.flower-section {
+  margin: 0px 235px;
+}
+.flowers {
+  text-align: center;
+}
+.flowers-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.flower-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.flower-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pink-flower {
+  background: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 110px 78px 0px 78px;
+}
+.red-flower {
+  background: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 117px 47px 51px 47px;
+}
+.yellow-flower {
+  background: rgba(71, 125, 17, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding: 67px 75px 0px 75px;
+}
+.pink-flower img {
+  width: 310px;
+  height: 428px;
+}
+.flower-name {
+  margin-top: 32px;
+  text-align: center;
+}
+/* extra-contact  */
+.extra-contact-section {
+  margin: 0px 235px;
+}
+.extra-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 128px 0px 228px;
+  gap: 271px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 0px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact img {
+  margin-bottom: 24px;
+}
+.contact-tittle {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 18px;
+  font-weight: 600;
 }
